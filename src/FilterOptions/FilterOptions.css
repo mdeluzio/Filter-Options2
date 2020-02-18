@@ -1,0 +1,8 @@
+/*.Filteroptions {
+    display: flex;
+}*/
+
+div.FilterOptions__option {
+    display: inline;
+    margin: 10px;;
+}

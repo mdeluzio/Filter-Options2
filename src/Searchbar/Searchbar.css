@@ -1,0 +1,13 @@
+.Searchbar {
+    border: 1px #000 solid;
+    margin: 30px;
+}
+
+div.Searchbar__heading {
+    text-align: center;
+}
+
+div.Searchbar__controls {
+    text-align: right;
+    margin: 2em;
+}
