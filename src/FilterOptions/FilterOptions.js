@@ -14,7 +14,7 @@ class FilterOptions extends React.Component {
                             id='filter_all' 
                             name='filter' 
                             checked={filterOption === "All"}
-                            onClick={e => this.props.handleFilter(e.target.value)} 
+                            onClick={e => this.props.handleFilterUpdate(e.target.value)} 
                         />
                         All
                     </label>
@@ -27,7 +27,7 @@ class FilterOptions extends React.Component {
                             id='filter_uploaded' 
                             name='filter' 
                             checked={filterOption === "Uploaded"}
-                            onClick={e => this.props.handleFilter(e.target.value)}
+                            onClick={e => this.props.handleFilterUpdate(e.target.value)}
                         />
                         Uploaded
                     </label>
@@ -40,7 +40,7 @@ class FilterOptions extends React.Component {
                             id='filter_synced' 
                             name='filter' 
                             checked={filterOption === "Synced"}
-                            onClick={e => this.props.handleFilter(e.target.value)} 
+                            onClick={e => this.props.handleFilterUpdate(e.target.value)} 
                         />
                         Synced
                     </label>
@@ -53,7 +53,7 @@ class FilterOptions extends React.Component {
                             id='filter_new' 
                             name='filter' 
                             checked={filterOption === "New"}
-                            onClick={e => this.props.handleFilter(e.target.value)}
+                            onClick={e => this.props.handleFilterUpdate(e.target.value)}
                         />
                         New
                     </label>
